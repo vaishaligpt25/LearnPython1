@@ -19,6 +19,7 @@ def check_is_prime(n: int) -> bool:
         return False
 
 def test_is_prime() -> None:
+    # these are the different test cases
     output_is_prime(1)
     output_is_prime(2)
     output_is_prime(3)
