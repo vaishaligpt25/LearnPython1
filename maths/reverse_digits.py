@@ -2,7 +2,7 @@ def reverse_digits (n : int) -> int:
     n_reverse: int = 0
     while n > 0:
         dig:int = n % 10
-        n: int = int(n/10)
+        n: int = int(n /10)
         n_reverse : int = (n_reverse*10) + dig
     return n_reverse
 
