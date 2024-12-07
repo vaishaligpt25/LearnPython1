@@ -1,4 +1,3 @@
-
 """
 18 = 2 x 3 x 3
 42 = 2 x 3 x 7
@@ -6,6 +5,7 @@
 63 = 3 x 3 x 7
 315 = 3 x 3 x 5 x 7
 """
+
 
 def show_prime_factors(n: int) -> None:
     print(f"Prime factors of {n} are: ", end="")
@@ -16,6 +16,7 @@ def show_prime_factors(n: int) -> None:
             print(f"{factor} ", end="")
         factor = factor + 1
     print()
+
 
 if __name__ == '__main__':
     show_prime_factors(n=36)
