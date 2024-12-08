@@ -1,2 +1,3 @@
 # ignore jetbrain's confi folder
 .idea
+__pycache__
