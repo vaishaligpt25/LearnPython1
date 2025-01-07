@@ -31,21 +31,21 @@ def show_pattern_for_n_2(n: int) -> None:
         print()
 
 
-def show_pattern_for_n(n: int) -> None:
-    print("Pattern for " + str(n) + " is:")
+def show_pattern_for_n_1(n: int) -> None:
+    print(f"Pattern for n = {n} is: ")
 
-    for i in range(n, 0, -1):
-        for j in range(i + 3, 0, -1):
-            print("*", end=" ")
+    for i in range(1, n+1):
+        for space in range(i):
+            print("  ", end="")
+        for j in range((n - i)*2 - 1):
+            print("*", end= " ")
         print()
 
 
-def test_cases() -> None:
-    # show_pattern_for_n(5)
-    # show_pattern_for_n(8)
 
-    show_pattern_for_n_2(5)
-    show_pattern_for_n_2(8)
+def test_cases() -> None:
+    show_pattern_for_n_1(5)
+    show_pattern_for_n_1(8)
 
 
 if __name__ == '__main__':
