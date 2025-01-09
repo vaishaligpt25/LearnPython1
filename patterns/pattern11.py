@@ -44,8 +44,8 @@ def show_pattern_for_n_1(n: int) -> None:
 
 
 def test_cases() -> None:
-    show_pattern_for_n_1(5)
-    show_pattern_for_n_1(8)
+    show_pattern_for_n_2(5)
+    show_pattern_for_n_2(8)
 
 
 if __name__ == '__main__':
