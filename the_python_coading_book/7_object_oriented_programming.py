@@ -1,5 +1,5 @@
-#Python is inherently an object-oriented programming language. However, you’ll often see Python described as a multi-paradigm language.
-#This means that it’s a language that supports many different programming styles, including object-oriented programming.
+# Python is inherently an object-oriented programming language. However, you’ll often see Python described as a multi-paradigm language.
+# This means that it’s a language that supports many different programming styles, including object-oriented programming.
 
 '''items = ["Coffee", "Tea", "Chocolate", "Sandwich"]
 cost_price = [1.1, 0.5, 0.9, 1.7]
@@ -48,4 +48,3 @@ stock[item_index] -= quantity
 print(profit)
 print(daily_income)
 print(stock[item_index])
-
