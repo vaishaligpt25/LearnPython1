@@ -11,7 +11,7 @@ print(item_sold)
 print(type(item_sold))
 quantity = int(input("Enter quantity sold: "))
 item_index = items.index(item_sold)
-print(item_index)'''
+print(item_index)
 
 print("\n------1------\n")
 
@@ -29,7 +29,7 @@ print("\n------3------\n")
 
 score = 3
 score -= 1
-print(score)
+print(score)'''
 
 print("\n------4------\n")
 
