@@ -198,3 +198,33 @@ print("\n--------\n")
 
 for something in some_words_items:
     print(something)
+
+Fruits = ['apple', 'grape', 'banana']
+Fruit_dict = {fruit:len(fruit) for fruit in Fruits}
+print(Fruit_dict)
+
+Fruits = ['apple', 'grape', 'banana']
+Cost = [5, 4, 3]
+result = dict(zip(Fruits,Cost))
+print(result)
+print(dict(zip(Fruits,Cost)))
+
+Fruits = ['apple', 'grape', 'banana']
+result = {index: value for index, value in enumerate(Fruits)}
+print(result)
+
+
+float_num = 12.235
+string_num = str(float_num)
+print(string_num)
+print(type(string_num))
+
+float_num = "43.89"
+int_num = int(float("43.89"))
+print(int_num)
+print(type(int_num))
+
+print("\n----1------\n")
+
+prices = [3, 5, 6, 3]
+print(len(prices))
