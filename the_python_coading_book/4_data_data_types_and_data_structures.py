@@ -226,5 +226,5 @@ print(type(int_num))
 
 print("\n----1------\n")
 
-prices = [3, 5, 6, 3]
+prices = [35, 5888, 6, 3]
 print(len(prices))
