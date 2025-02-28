@@ -22,14 +22,35 @@ That’s because sequences can be multiplied by integers:
 [34, 45, 23, 12] * 2
 [34, 45, 23, 12, 34, 45, 23, 12]'''
 
+print("\n--------------------incorrect--------------\n")
+
+# items = {"Coffee": 2.2, "Tea": 1.5, "Chocolate": 2.5}
+#
+# for item in items.keys():
+#      income = 0
+#      qty = input(f"How many {item}s have you sold? ")
+#      qty = int(qty)
+#      income = income + qty * items[item]
+# print(f"\nThe income today was £{income:0.2f}")
+
+print("\n--------------------correct--------------\n")
+
 items = {"Coffee": 2.2, "Tea": 1.5, "Chocolate": 2.5}
 
+income = 0
 for item in items.keys():
-     income = 0
-     qty = input(f"How many {item}s have you sold? ")
-     qty = int(qty)
-     income = income + qty * items[item]
+    qty = input(f"How many {item}s have you sold? ")
+    qty = int(qty)
+    income = income + qty * items[item]
 print(f"\nThe income today was £{income:0.2f}")
 
+print("\n--------------------refactoring--------------\n")
 
+items = {"Coffee": 2.2, "Tea": 1.5, "Chocolate": 2.5}
 
+income = 0
+for item, value in items.items():
+    qty = input(f"How many {item}s have you sold? ")
+    qty = int(qty)
+    income = income + qty * value
+print(f"\nThe income today was £{income:0.2f}")
