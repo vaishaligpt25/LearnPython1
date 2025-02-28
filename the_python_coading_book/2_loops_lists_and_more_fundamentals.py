@@ -1,7 +1,9 @@
 import random
 
-'''for something in range(10):
+for something in range(10):
     print("Don't repeat yourself")
+
+print("\n-----0-----\n")
 
 for something in range(10):
     print(something)
@@ -37,7 +39,7 @@ print("\n-----4-----\n")
 a = random.randint(1,10)
 if a == 5:
 
-print("Have a good day")
+ print("Have a good day")
 
 print("\n-----5-----\n")
 
@@ -47,7 +49,7 @@ b = random.randint(1,20)
 if a > 10:
     print("a is a big number")
     if b > 10:
-        print("b is a big number")'''
+        print("b is a big number")
 
 
 print("\n-----6-----\n")
