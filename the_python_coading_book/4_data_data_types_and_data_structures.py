@@ -35,9 +35,12 @@ print("\n-----4----\n")
 #my_value = "Harry"
 #my_value[2] = "x"
 #print(my_value)
-#Strings are immutable data types. This means that once they’ve been created, you cannot make changes within the string. Immutable data types are meant for information that is unlikely to need to change once created.
-#Lists are mutable, which means that they are flexible containers that can change. You can add new items to a list or replace existing ones. Mutable data types are ideal for data that is likely to change while a program is running.
-#Note that even with immutable data types, you’re still allowed to overwrite the entire variable. So if I did want to change the third letter of my name to "y", I would need to do the following:
+#Strings are immutable data types. This means that once they’ve been created, you cannot make changes within the string.
+# Immutable data types are meant for information that is unlikely to need to change once created.
+#Lists are mutable, which means that they are flexible containers that can change. You can add new items to a list or replace existing ones.
+# Mutable data types are ideal for data that is likely to change while a program is running.
+#Note that even with immutable data types, you’re still allowed to overwrite the entire variable.
+# So if I did want to change the third letter of my name to "y", I would need to do the following:
 my_value = "Haxrry"
 print(my_value)
 
@@ -83,8 +86,8 @@ print(type(my_data))
 #Tuples are also sequences and you can use indexing and slicing on tuples in the same way as you do with lists
 print(my_data[2:6])
 print(my_data[-1])
-#my_data[2] = 50
-#print(my_data[2])
+# my_data[2] = 50
+# print(my_data[2])
 
 #At this point, you may be wondering why you need tuples at all. They seem to be like lists but with fewer features! However, when you want to create a sequence of items and you know that this sequence will not change in your code, creating a tuple is the safer option. It makes it less likely that your code will accidentally change a value in the tuple, as if your code tries to do so, you’ll get an error. Using a tuple when you know the data should not change means you’re less likely to introduce bugs in your code.
 
@@ -132,7 +135,7 @@ print("\n-----10----\n")
 for item in student_marks:
     print(item)
 
-print("\n-----10----\n")
+print("\n-----11----\n")
 
 # Method 1: using zip function
 keys = ["A", "B", "C", "D"]
@@ -150,7 +153,7 @@ for i in range(len(keys)):
     my_dict[keys[i]] = values[i]
 print(my_dict)
 
-print("\n-----11----\n")
+print("\n-----12----\n")
 
 word_frequency = {}
 #for word in words:
@@ -162,7 +165,7 @@ print("python" in some_words)
 print("monday" in some_words)
 print("monday" not in some_words)
 
-print("\n-----12----\n")
+print("\n-----13----\n")
 
 '''word_frequency = {}
 for word in word_frequency:
@@ -180,7 +183,7 @@ for word in word_frequency:
         word_frequency[word] = word_frequency[word] + 1
 print(word_frequency)
 
-print("\n-----13----\n")
+print("\n-----14----\n")
 
 #Unpacking: 1
 
@@ -194,20 +197,26 @@ some_words = {'hello': 3, 'python': 9, 'bye': 1, 'computer': 2}
 print (some_words.items())
 some_words_items = [('hello', 3), ('python', 9), ('bye', 1), ('computer', 2)]
 
-print("\n--------\n")
+print("\n-----15---\n")
 
 for something in some_words_items:
     print(something)
 
+print("\n-----16---\n")
+
 Fruits = ['apple', 'grape', 'banana']
 Fruit_dict = {fruit:len(fruit) for fruit in Fruits}
 print(Fruit_dict)
+
+print("\n-----17---\n")
 
 Fruits = ['apple', 'grape', 'banana']
 Cost = [5, 4, 3]
 result = dict(zip(Fruits,Cost))
 print(result)
 print(dict(zip(Fruits,Cost)))
+
+print("\n-----18---\n")
 
 Fruits = ['apple', 'grape', 'banana']
 result = {index: value for index, value in enumerate(Fruits)}
@@ -224,7 +233,7 @@ int_num = int(float("43.89"))
 print(int_num)
 print(type(int_num))
 
-print("\n----1------\n")
+print("\n----19------\n")
 
-prices = [35, 5888, 6, 3]
+prices = [35, 5888, 6, 3,5,9]
 print(len(prices))
