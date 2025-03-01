@@ -20,3 +20,7 @@ https://thepythoncodingbook.com/data-types-and-data-structures/
 
 Chapter 5: Dealing With Errors and Bugs
 https://thepythoncodingbook.com/errors-and-bugs/
+
+Chapter 6 :Functions Revisited
+https://thepythoncodingbook.com/functions-revisited/
+
