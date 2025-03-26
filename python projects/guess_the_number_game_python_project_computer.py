@@ -15,8 +15,3 @@ def guess(x):
 
 if __name__ == '__main__':
     guess(10)
-
-
-
-
-
